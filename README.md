@@ -19,7 +19,7 @@ You can also view the project online on DataBricks.
 
 ## Author
 
-![Author: Andreja Nesic](https://andrejanesic.com/git-signature-sm.png)
+[![Author: Andreja Nesic](https://andrejanesic.com/git-signature-sm.png)](https://andrejanesic.com)
 
 ## Limitation of Liability
 
