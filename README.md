@@ -67,14 +67,14 @@ Across four notebooks it builds a full data-science pipeline on **Apache Spark**
 
 ## The Notebooks
 
-> ⚠️ The notebooks were authored on **Databricks** and use platform features (`dbutils`, DBFS, `display()`). Charts render on the Databricks platform and in the hosted HTML, **not** in GitHub's static notebook preview. Use the **HTML** or **Databricks** links below to see the visuals.
+> ⚠️ The notebooks were authored on **Databricks** and use platform features (`dbutils`, DBFS, `display()`). Charts render on the Databricks platform and in the hosted HTML, **not** in GitHub's static notebook preview. Use the **HTML** or **Live (Pages)** links below to see the visuals.
 
-| Part | Focus | View (HTML) | Notebook | Databricks |
-| ---- | ----- | ----------- | -------- | ---------- |
-| 1/4 | Ingest, clean & feature engineering | [HTML](./docs/part-1.html) | [nbviewer](https://nbviewer.org/github/andrejanesic/Spark-News-Stock-Market-Prediction/blob/main/Daily-News-And-Stock-Market-Correlation-Prediction-%281-4%29.ipynb) | [Open](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/1993205155917960/4235175522479674/6079964132923530/latest.html) |
-| 2/4 | Exploratory analysis (DJIA + headlines) | [HTML](./docs/part-2.html) | [nbviewer](https://nbviewer.org/github/andrejanesic/Spark-News-Stock-Market-Prediction/blob/main/Daily-News-And-Stock-Market-Correlation-Prediction-%282-4%29.ipynb) | [Open](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/1993205155917960/4235175522479872/6079964132923530/latest.html) |
-| 3/4 | Hypothesis testing (H1–H7) | [HTML](./docs/part-3.html) | [nbviewer](https://nbviewer.org/github/andrejanesic/Spark-News-Stock-Market-Prediction/blob/main/Daily-News-And-Stock-Market-Correlation-Prediction-%283-4%29.ipynb) | [Open](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/1993205155917960/4235175522480070/6079964132923530/latest.html) |
-| 4/4 | Spark Structured Streaming | [HTML](./docs/part-4.html) | [nbviewer](https://nbviewer.org/github/andrejanesic/Spark-News-Stock-Market-Prediction/blob/main/Daily-News-And-Stock-Market-Correlation-Prediction-%284-4%29.ipynb) | [Open](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/1993205155917960/3302041395977405/6079964132923530/latest.html) |
+| Part | Focus | View (HTML) | Notebook | Live (Pages) |
+| ---- | ----- | ----------- | -------- | ------------ |
+| 1/4 | Ingest, clean & feature engineering | [HTML](./docs/part-1.html) | [nbviewer](https://nbviewer.org/github/andrejanesic/Spark-News-Stock-Market-Prediction/blob/main/Daily-News-And-Stock-Market-Correlation-Prediction-%281-4%29.ipynb) | [Open](https://andrejanesic.github.io/Spark-News-Stock-Market-Prediction/part-1.html) |
+| 2/4 | Exploratory analysis (DJIA + headlines) | [HTML](./docs/part-2.html) | [nbviewer](https://nbviewer.org/github/andrejanesic/Spark-News-Stock-Market-Prediction/blob/main/Daily-News-And-Stock-Market-Correlation-Prediction-%282-4%29.ipynb) | [Open](https://andrejanesic.github.io/Spark-News-Stock-Market-Prediction/part-2.html) |
+| 3/4 | Hypothesis testing (H1–H7) | [HTML](./docs/part-3.html) | [nbviewer](https://nbviewer.org/github/andrejanesic/Spark-News-Stock-Market-Prediction/blob/main/Daily-News-And-Stock-Market-Correlation-Prediction-%283-4%29.ipynb) | [Open](https://andrejanesic.github.io/Spark-News-Stock-Market-Prediction/part-3.html) |
+| 4/4 | Spark Structured Streaming | [HTML](./docs/part-4.html) | [nbviewer](https://nbviewer.org/github/andrejanesic/Spark-News-Stock-Market-Prediction/blob/main/Daily-News-And-Stock-Market-Correlation-Prediction-%284-4%29.ipynb) | [Open](https://andrejanesic.github.io/Spark-News-Stock-Market-Prediction/part-4.html) |
 
 > 💡 **Hosting the HTML:** enable **GitHub Pages** on the `/docs` folder (Settings → Pages → Source: `main` / `/docs`) to serve the rendered notebooks at `https://andrejanesic.github.io/Spark-News-Stock-Market-Prediction/part-1.html`.
 
