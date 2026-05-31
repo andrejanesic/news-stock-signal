@@ -71,10 +71,10 @@ Across four notebooks it builds a full data-science pipeline on **Apache Spark**
 
 | Part | Focus | View (HTML) | Notebook |
 | ---- | ----- | ----------- | -------- |
-| 1/4 | Ingest, clean & feature engineering | [HTML](./docs/part-1.html) | [nbviewer](https://nbviewer.org/github/andrejanesic/Spark-News-Stock-Market-Prediction/blob/main/Daily-News-And-Stock-Market-Correlation-Prediction-%281-4%29.ipynb) |
-| 2/4 | Exploratory analysis (DJIA + headlines) | [HTML](./docs/part-2.html) | [nbviewer](https://nbviewer.org/github/andrejanesic/Spark-News-Stock-Market-Prediction/blob/main/Daily-News-And-Stock-Market-Correlation-Prediction-%282-4%29.ipynb) |
-| 3/4 | Hypothesis testing (H1–H7) | [HTML](./docs/part-3.html) | [nbviewer](https://nbviewer.org/github/andrejanesic/Spark-News-Stock-Market-Prediction/blob/main/Daily-News-And-Stock-Market-Correlation-Prediction-%283-4%29.ipynb) |
-| 4/4 | Spark Structured Streaming | [HTML](./docs/part-4.html) | [nbviewer](https://nbviewer.org/github/andrejanesic/Spark-News-Stock-Market-Prediction/blob/main/Daily-News-And-Stock-Market-Correlation-Prediction-%284-4%29.ipynb) |
+| 1/4 | Ingest, clean & feature engineering | [HTML](./docs/part-1.html) | [nbviewer](https://nbviewer.org/github/andrejanesic/news-stock-signal/blob/main/Daily-News-And-Stock-Market-Correlation-Prediction-%281-4%29.ipynb) |
+| 2/4 | Exploratory analysis (DJIA + headlines) | [HTML](./docs/part-2.html) | [nbviewer](https://nbviewer.org/github/andrejanesic/news-stock-signal/blob/main/Daily-News-And-Stock-Market-Correlation-Prediction-%282-4%29.ipynb) |
+| 3/4 | Hypothesis testing (H1–H7) | [HTML](./docs/part-3.html) | [nbviewer](https://nbviewer.org/github/andrejanesic/news-stock-signal/blob/main/Daily-News-And-Stock-Market-Correlation-Prediction-%283-4%29.ipynb) |
+| 4/4 | Spark Structured Streaming | [HTML](./docs/part-4.html) | [nbviewer](https://nbviewer.org/github/andrejanesic/news-stock-signal/blob/main/Daily-News-And-Stock-Market-Correlation-Prediction-%284-4%29.ipynb) |
 
 > 💡 **Live version:** the rendered notebooks are published via **GitHub Pages** from the `/docs` folder (Settings → Pages → Source: `main` / `/docs`). Links between parts are document-relative, so they keep working even if the repository is renamed.
 
