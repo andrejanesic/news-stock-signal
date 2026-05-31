@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daily News &amp; Stock Market Prediction with Apache Spark</title>
+  <style>
+    :root { color-scheme: light dark; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: #1f2328;
+      background: #ffffff;
+    }
+    .wrap { max-width: 760px; margin: 0 auto; padding: 3rem 1.25rem 4rem; }
+    header { border-bottom: 1px solid #e1e4e8; padding-bottom: 1.25rem; margin-bottom: 1.5rem; }
+    h1 { font-size: 1.9rem; margin: 0 0 .4rem; }
+    p.lead { color: #57606a; margin: 0; }
+    ul.parts { list-style: none; padding: 0; margin: 1.5rem 0; }
+    ul.parts li { margin: 0; }
+    a.card {
+      display: block; text-decoration: none; color: inherit;
+      border: 1px solid #d0d7de; border-radius: 10px;
+      padding: 1rem 1.25rem; margin-bottom: .75rem;
+      transition: border-color .15s ease, transform .15s ease;
+    }
+    a.card:hover { border-color: #0969da; transform: translateY(-1px); }
+    a.card .n { font-size: .8rem; font-weight: 600; color: #0969da; letter-spacing: .03em; }
+    a.card .t { font-size: 1.05rem; font-weight: 600; margin: .15rem 0 .1rem; }
+    a.card .d { color: #57606a; font-size: .92rem; }
+    footer { margin-top: 2rem; padding-top: 1.25rem; border-top: 1px solid #e1e4e8; color: #57606a; font-size: .9rem; }
+    footer a { color: #0969da; }
+    @media (prefers-color-scheme: dark) {
+      body { color: #e6edf3; background: #0d1117; }
+      header, footer { border-color: #30363d; }
+      p.lead, a.card .d, footer { color: #8b949e; }
+      a.card { border-color: #30363d; }
+      a.card:hover { border-color: #2f81f7; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>📈 Daily News &amp; Stock Market Prediction</h1>
+      <p class="lead">Mining eight years of world-news headlines and Dow Jones data with Apache Spark, NLP and machine learning.</p>
+    </header>
+
+    <ul class="parts">
+      <li><a class="card" href="./part-1.html">
+        <div class="n">PART 1 / 4</div>
+        <div class="t">Ingest, clean &amp; feature engineering</div>
+        <div class="d">Load from Kaggle, enforce schemas, validate dates, engineer market indicators.</div>
+      </a></li>
+      <li><a class="card" href="./part-2.html">
+        <div class="n">PART 2 / 4</div>
+        <div class="t">Exploratory analysis</div>
+        <div class="d">DJIA performance, word frequencies, word clouds and headline sentiment.</div>
+      </a></li>
+      <li><a class="card" href="./part-3.html">
+        <div class="n">PART 3 / 4</div>
+        <div class="t">Hypothesis testing (H1–H7)</div>
+        <div class="d">Seven hypotheses on how news relates to price and trading volume.</div>
+      </a></li>
+      <li><a class="card" href="./part-4.html">
+        <div class="n">PART 4 / 4</div>
+        <div class="t">Spark Structured Streaming</div>
+        <div class="d">Near-real-time scoring of incoming headlines.</div>
+      </a></li>
+    </ul>
+
+    <footer>
+      Source &amp; full write-up on
+      <a href="https://github.com/andrejanesic/Spark-News-Stock-Market-Prediction">GitHub</a>.
+      For academic/educational purposes only — not investment advice.
+    </footer>
+  </div>
+</body>
+</html>

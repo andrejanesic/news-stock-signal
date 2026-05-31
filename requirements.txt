@@ -1,0 +1,13 @@
+# Python dependencies for the notebooks.
+# Authored on Databricks (Spark is provided by the runtime); pyspark is listed
+# here for local adaptation. Versions are unpinned to match the inline
+# `!pip install` calls in the notebooks — pin them to your Databricks runtime
+# if you need reproducibility.
+
+pyspark
+nltk
+vaderSentiment
+wordcloud
+kaggle
+matplotlib
+pandas

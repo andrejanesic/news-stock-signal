@@ -1,0 +1,28 @@
+# Data (downloaded from Kaggle at runtime)
+data/
+*.zip
+
+# Kaggle credentials
+.kaggle/
+kaggle.json
+
+# Spark / streaming artifacts
+spark-warehouse/
+metastore_db/
+checkpoint/
+*.crc
+_SUCCESS
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
